@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+.eggs/
+*.whl
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# DeskMate config / 用户配置
+.deskmate/
+config.json
+
+# Build artifacts / 构建产物
+*.spec
+release/
+*.app/
+*.exe
+*.dmg
+*.deb
+*.rpm
+
+# Logs / 日志
+*.log
+logs/
+
+# Test / 测试
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# MyPy
+.mypy_cache/

@@ -1,0 +1,9 @@
+# DeskMate dependencies / DeskMate 依赖
+PyQt5>=5.15.0
+
+# Optional: for better system monitoring on non-Linux platforms
+# 可选：非Linux平台更好的系统监控
+psutil>=5.9.0; sys_platform != "linux"
+
+# Build dependencies (for packaging) / 构建依赖（用于打包）
+pyinstaller>=5.0; python_version >= "3.8"
